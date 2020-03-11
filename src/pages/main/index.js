@@ -2,7 +2,7 @@ import React, { Fragment, useState, useEffect } from 'react'
 import api from './../../services/api'
 import { Link } from 'react-router-dom'
 
-import './styles.css'
+import './styles.scss'
 
 export default function Main() {
     const [products, setProducts] = useState([])
